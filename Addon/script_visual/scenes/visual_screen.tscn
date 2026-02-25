@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://caie0ok1l15sc"]
+
+[ext_resource type="Texture2D" uid="uid://br4k5od0sq2rq" path="res://addons/script_visual/logo.png" id="1_hd2kp"]
+[ext_resource type="Texture2D" uid="uid://c0dbelawxnty8" path="res://addons/script_visual/papel_de_parede_liso_preto_com_glitter_1567181465_30e0_600x600.jpg" id="1_hshxa"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hshxa"]
+bg_color = Color(0, 0.029342208, 0.122539766, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0lax2"]
+bg_color = Color(0, 0.02745098, 0.12156863, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1qy8d"]
+bg_color = Color(0, 0.02745098, 0.12156863, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e5lg5"]
+bg_color = Color(0, 0.02745098, 0.12156863, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hox71"]
+bg_color = Color(0, 0.02745098, 0.12156863, 1)
+
+[node name="visual_screen" type="Control" unique_id=135597074]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fundo" type="TextureRect" parent="." unique_id=132032419]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_hshxa")
+
+[node name="logo" type="TextureRect" parent="." unique_id=864941287]
+layout_mode = 0
+offset_left = -108.0
+offset_top = -304.0
+offset_right = 1003.0
+offset_bottom = 1273.0
+texture = ExtResource("1_hd2kp")
+
+[node name="new script" type="Button" parent="." unique_id=1904235197]
+layout_mode = 0
+offset_left = 1168.0
+offset_top = 426.0
+offset_right = 1837.0
+offset_bottom = 557.0
+theme_override_font_sizes/font_size = 90
+theme_override_styles/normal = SubResource("StyleBoxFlat_hshxa")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0lax2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1qy8d")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_e5lg5")
+theme_override_styles/focus = SubResource("StyleBoxFlat_hox71")
+text = "NEW SCRIPT"
