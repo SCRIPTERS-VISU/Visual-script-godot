@@ -4,7 +4,7 @@ extends EditorPlugin
 var _panel: Control
 
 func _enter_tree() -> void:
-	var script = load("res://addons/visual_scene_connector/main_panel.gd")
+	var script = load("res://addons/script_visual/main_panel.gd")
 	_panel = script.new()
 	_panel.editor_plugin = self
 	_panel.name = "Visual Script"
