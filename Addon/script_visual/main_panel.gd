@@ -11,10 +11,10 @@ var _scan_timer: Timer
 var _scenes_count_label: Label
 var _log_panel: RichTextLabel
 
-const _SCENE_NODE_PATH    = "res://addons/visual_scene_connector/nodes/scene_node.gd"
-const _BUTTON_NODE_PATH   = "res://addons/visual_scene_connector/nodes/button_node.gd"
-const _EVENT_NODE_PATH    = "res://addons/visual_scene_connector/nodes/event_node.gd"
-const _MULTIPLE_NODE_PATH = "res://addons/visual_scene_connector/nodes/multiple_node.gd"
+const _SCENE_NODE_PATH    = "res://addons/visual_script/nodes/scene_node.gd"
+const _BUTTON_NODE_PATH   = "res://addons/visual_script/nodes/button_node.gd"
+const _EVENT_NODE_PATH    = "res://addons/visual_script/nodes/event_node.gd"
+const _MULTIPLE_NODE_PATH = "res://addons/visual_script/nodes/multiple_node.gd"
 
 func _ready() -> void:
 	set_anchors_preset(Control.PRESET_FULL_RECT)
