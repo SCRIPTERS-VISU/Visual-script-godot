@@ -26,7 +26,7 @@ func _get_plugin_name() -> String:
 
 func _get_plugin_icon() -> Texture2D:
 	# Tenta carregar o SVG; se falhar usa ícone interno garantido
-	var path := "res://addons/visual_script/logo.png"
+	var path := "res://addons/script_visual/logo.png"
 	if ResourceLoader.exists(path):
 		var tex = load(path) as Texture2D
 		if tex:
